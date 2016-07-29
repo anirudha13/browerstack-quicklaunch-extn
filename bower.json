@@ -1,0 +1,27 @@
+{
+  "name": "browserstack-chrome-ext",
+  "authors": [
+    "anirudha13 <anirudha_81@yahoo.com>"
+  ],
+  "description": "Tutorial for BrowserStack JS training.",
+  "main": "quick-launch.html",
+  "keywords": [
+    "chrome",
+    "quick",
+    "launch"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "angular": "^1.5.7"
+  }
+}

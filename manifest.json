@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+  "name": "BrowserStack QuickLaunch Tutorial",
+  "description": "Extension that opens the current tab URL in an interactive BrowserStack session.",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "quick-launch.html"
+  },
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "unlimitedStorage",
+    "https://ajax.googleapis.com/",
+    "https://www.browserstack.com/"
+  ]
+}
